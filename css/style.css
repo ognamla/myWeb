@@ -12,6 +12,23 @@ body {
     margin-left: 5%;
 }
 
+#skill {
+    background: aliceblue;
+    opacity: .9;
+    padding: 2%;
+    /* margin-top: 5%; */
+    margin-right: 5%;
+    white-space: nowrap;
+    margin-left: 5%;
+}
+
+hr {
+    width: 20%;
+    border-top: 2px solid #1b232b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .me-img {
    border: 4px solid #cdcdcd;
    max-width: 200px;
@@ -30,16 +47,6 @@ body {
     font-size: 12pt;
     white-space: nowrap;
     margin-top: 20px;
-}
-
-#skill {
-    background: aliceblue;
-    opacity: .9;
-    padding: 2%;
-    margin-top: 5%;
-    margin-right: 5%;
-    white-space: nowrap;
-    margin-left: 5%;
 }
 
 .skill-text {
