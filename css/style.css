@@ -25,13 +25,18 @@ hr {
     border-top: 1px solid hsl(0, 0%, 60%);
     text-align: center;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .my-nav{
-text-align: center;
-white-space: nowrap;
-background-color: #222222;
+    opacity: 0.8;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #222222;
+}
+
+.my-nav-hr {
+    /* display: none; */
 }
 
 .my-nav li {
@@ -68,7 +73,8 @@ background-color: #222222;
 }
 
 #about h3 {
-    line-height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
     font-size: 20px;
     font-weight: 100;
     padding: 0 10%;
@@ -81,19 +87,19 @@ background-color: #222222;
  }
 
 
- .subject {
+.subject {
      color: #1b232b;
      text-align: left;
      margin-left: 5%;
  }
  
 #skill {
+    color: #cdcdcd;
     opacity: .9;
-    padding: 2%;
+    padding: 10%;
     /* margin-top: 5%; */
-    margin-right: 5%;
     white-space: nowrap;
-    margin-left: 5%;
+    
 }
 
 .skill-text {
@@ -155,34 +161,34 @@ to {width: 60%;}
 }
 
 .hc {
-    color: #cdcdcd; 
+    color: #222222; 
     font-size: 8px; 
     text-align: center; 
     line-height: 20px; 
     height: 20px; 
     width: 60%; 
-    background-color: rgb(17, 65, 113); 
+    background-color: #cdcdcd; 
     -webkit-animation: hc 4s;
 }
 
 .ci {
-    color: #cdcdcd; 
+    color: #222222; 
     font-size: 8px; 
     text-align: center; 
     line-height: 20px; 
     height: 20px; 
     width: 80%; 
-    background-color: rgb(17, 65, 113); 
+    background-color: #cdcdcd; 
     -webkit-animation: ci 5s;
 }
 
 .bi {
-    color: #cdcdcd; 
+    color: #222222; 
     font-size: 8px; 
     text-align: center; 
     line-height: 20px; 
     height: 20px; 
     width: 60%; 
-    background-color: rgb(17, 65, 113); 
+    background-color: #cdcdcd; 
     -webkit-animation: bi 4s;
 }
