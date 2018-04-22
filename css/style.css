@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: #222222;
 }
@@ -80,18 +84,38 @@ hr {
     padding: 0 10%;
 
 }
-.me-img {
-    border: 4px solid #cdcdcd;
-    max-width: 200px;
-    text-align: right;
- }
+
+#timeline {
+    color: #cdcdcd;
+    padding: 10%;
+    white-space: nowrap;
+}
+
+#timeline h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 0 10%;
+}
+
+#timeline h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* line-height: 30px; */
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0 10%;
+}
 
 
-.subject {
-     color: #1b232b;
-     text-align: left;
-     margin-left: 5%;
- }
+#timeline h5 {
+    color: #666666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* line-height: 30px; */
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0 10%;
+}
  
 #skill {
     color: #cdcdcd;
@@ -138,41 +162,49 @@ from {width: 0%;}
 to {width: 60%;}
 }
 
+.progress {
+    background-color: #444444;;
+
+}
+
 .swift {
-    color: #222222; 
+    color: #444444; 
     font-size: 8px; 
     text-align: center; 
-    line-height: 20px; 
+    /* line-height: 20px;  */
     height: 20px; 
     width: 60%; 
     background-color: #cdcdcd; 
     -webkit-animation: swift 5s;
+    -webkit-animation-play-state: paused;
 }
 
 .js {
-    color: #222222; 
+    color: #444444; 
     font-size: 8px; 
     text-align: center; 
-    line-height: 20px; 
+    /* line-height: 20px;  */
     height: 20px; 
     width: 70%; 
     background-color: #cdcdcd; 
     -webkit-animation: js 4s;
+    -webkit-animation-play-state: paused;
 }
 
 .hc {
-    color: #222222; 
+    color: #444444; 
     font-size: 8px; 
     text-align: center; 
-    line-height: 20px; 
+    /* line-height: 20px;  */
     height: 20px; 
     width: 60%; 
     background-color: #cdcdcd; 
     -webkit-animation: hc 4s;
+    -webkit-animation-play-state: paused;
 }
 
 .ci {
-    color: #222222; 
+    color: #444444; 
     font-size: 8px; 
     text-align: center; 
     line-height: 20px; 
@@ -180,10 +212,11 @@ to {width: 60%;}
     width: 80%; 
     background-color: #cdcdcd; 
     -webkit-animation: ci 5s;
+    -webkit-animation-play-state: paused;
 }
 
 .bi {
-    color: #222222; 
+    color: #444444; 
     font-size: 8px; 
     text-align: center; 
     line-height: 20px; 
@@ -191,4 +224,54 @@ to {width: 60%;}
     width: 60%; 
     background-color: #cdcdcd; 
     -webkit-animation: bi 4s;
+    -webkit-animation-play-state: paused;
 }
+
+#work {
+    color: #cdcdcd;
+    padding: 10%;
+}
+
+#work h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    /* padding: 0 10%; */
+
+}
+
+#work li {
+    display: inline;
+    list-style: none;
+}
+
+#work ul {
+    text-align: center;
+    white-space: nowrap;
+}
+
+#work li img {
+    height: 40px;
+}
+
+#work a:visited {
+    display: none;
+}
+
+#contact {
+    color: #cdcdcd;
+    padding: 10%;
+}
+
+#contact .my-contact {
+    text-align: center;
+    margin: 16% 0 ;
+}
+
+.me-img {
+    border: 4px solid #cdcdcd;
+    max-width: 160px;
+    text-align: right;
+ }
