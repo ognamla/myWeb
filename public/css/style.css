@@ -132,6 +132,10 @@ hr {
     font-size: 16px;
 }
 
+#skill div p {
+    margin: 12px auto;
+}
+
 @-webkit-keyframes swift /* Safari and Chrome */
 {
 from {width: 0%;}
@@ -164,6 +168,7 @@ to {width: 60%;}
 
 .progress {
     background-color: #444444;;
+    height: 20px; 
 
 }
 
@@ -248,8 +253,8 @@ to {width: 60%;}
 }
 
 #work ul {
-    text-align: center;
     white-space: nowrap;
+    padding: 12px auto;
 }
 
 #work li img {
